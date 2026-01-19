@@ -119,8 +119,10 @@ Problem No        Problem Name
 1108              Defanging an IP Address
 1137              N-th Tribonacci Number
 1146              Snapshot Array
+1935              Maximum Number of Words You Can Type
 1207              Unique Number of Occurrences
 1255              Maximum Score Words Formed by Letters
+2215              Find the Difference of Two Arrays
 1266              Minimum Time Visiting All Points
 1290              Convert Binary Number in a Linked List to Integer
 1295              Find Numbers with Even Number of Digits
