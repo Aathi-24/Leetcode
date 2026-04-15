@@ -1,222 +1,272 @@
 ##############################################################################################################################################
-TOTAL SOLVED : 220
-LAST UPDATED : FEBRUARY 20,2026
+TOTAL SOLVED : 265
+LAST UPDATED : APRIL 15,2026
 ##############################################################################################################################################
 
 Sno                       Problem No                       Problem Name
 
-1.                             1                           Two Sum
-2.                             4                           Median of Two Sorted Arrays
-3.                             5                           Longest Palindromic Substring
-4.                             9                           Palindrome Number
-5.                             11                          Container With Most Water
-6.                             12                          Integer to Roman
-7.                             13                          Roman to Integer
-8.                             15                          3Sum
-9.                             20                          Valid Parentheses
-10.                            28                          Find the Index of the First Occurrence in a String
-11.                            33                          Search in Rotated Sorted Array
-12.                            34                          Find First and Last Position of Element in Sorted Array
-13.                            35                          Search Insert Position
-14.                            48                          Rotate Image
-15.                            52                          N-Queens II
-16.                            54                          Spiral Matrix
-17.                            58                          Length of Last Word
-18.                            59                          Spiral Matrix II
-19.                            66                          Plus One
-20.                            67                          Add Binary
-21.                            69                          Sqrt(x)
-22.                            70                          Climbing Stairs
-23.                            74                          Search a 2D Matrix
-24.                            75                          Sort Colors
-25.                            118                         Pascal's Triangle
-26.                            119                         Pascal's Triangle II
-27.                            125                         Valid Palindrome
-28.                            136                         Single Number
-29.                            151                         Reverse Words in a String
-30.                            153                         Find Minimum in Rotated Sorted Array
-31.                            154                         Find Minimum in Rotated Sorted Array II
-32.                            169                         Majority Element
-33.                            175                         Combine Two Tables
-34.                            189                         Rotate Array
-35.                            190                         Reverse Bits
-36.                            191                         Number of 1 Bits
-37.                            202                         Happy Number
-38.                            205                         Isomorphic Strings
-39.                            206                         Reverse Linked List
-40.                            215                         Kth Largest Element in an Array
-41.                            217                         Contains Duplicate
-42.                            229                         Majority Element II
-43.                            231                         Power of Two
-44.                            238                         Product of Array Except Self
-45.                            242                         Valid Anagram
-46.                            258                         Add Digits
-47.                            263                         Ugly Number
-48.                            268                         Missing Number
-49.                            275                         H-Index II
-50.                            278                         First Bad Version
-51.                            283                         Move Zeroes
-52.                            292                         Nim Game
-53.                            300                         Longest Increasing Subsequence
-54.                            326                         Power of Three
-55.                            338                         Counting Bits
-56.                            342                         Power of Four
-57.                            344                         Reverse String
-58.                            345                         Reverse Vowels of a String
-59.                            349                         Intersection of Two Arrays
-60.                            354                         Russian Doll Envelopes
-61.                            367                         Valid Perfect Square
-62.                            374                         Guess Number Higher or Lower
-63.                            392                         Is Subsequence
-64.                            394                         Decode String
-65.                            405                         Convert a Number to Hexadecimal
-66.                            407                         Trapping Rain Water II
-67.                            412                         Fizz Buzz
-68.                            415                         Add Strings
-69.                            436                         Find Right Interval
-70.                            441                         Arranging Coins
-71.                            443                         String Compression
-72.                            468                         Validate IP Address
-73.                            485                         Max Consecutive Ones
-74.                            491                         Non-decreasing Subsequences
-75.                            496                         Next Greater Element I
-76.                            503                         Next Greater Element II
-77.                            504                         Base 7
-78.                            506                         Relative Ranks
-79.                            507                         Perfect Number
-80.                            540                         Single Element in a Sorted Array
-81.                            557                         Reverse Words in a String III
-82.                            561                         Array Partition
-83.                            605                         Can Place Flowers
-84.                            611                         Valid Triangle Number
-85.                            628                         Maximum Product of Three Numbers
-86.                            657                         Robot Return to Origin
-87.                            658                         Find K Closest Elements
-88.                            679                         24 Game
-89.                            682                         Baseball Game
-90.                            717                         1-bit and 2-bit Characters
-91.                            724                         Find Pivot Index
-92.                            728                         Self Dividing Numbers
-93.                            709                         To Lower Case
-94.                            744                         Find Smallest Letter Greater Than Target
-95.                            746                         Min Cost Climbing Stairs
-96.                            747                         Largest Number At Least Twice of Others
-97.                            762                         Prime Number of Set Bits in Binary Representation
-98.                            771                         Jewels and Stones
-99.                            704                         Binary Search
-100.                           796                         Rotate String
-101.                           804                         Unique Morse Code Words
-102.                           806                         Number of Lines To Write String
-103.                           812                         Largest Triangle Area
-104.                           832                         Flipping an Image
-105.                           837                         New 21 Game
-106.                           852                         Peak Index in a Mountain Array
-107.                           867                         Transpose Matrix
-108.                           528                         Random Pick with Weight
-109.                           942                         DI String Match
-110.                           944                         Delete Columns to Make Sorted
-111.                           961                         N-Repeated Element in Size 2N Array
-112.                           966                         Vowel Spellchecker
-113.                           509                         Fibonacci Number
-114.                           976                         Largest Perimeter Triangle
-115.                           977                         Squares of a Sorted Array
-116.                           980                         Unique Paths III
-117.                           981                         Time Based Key-Value Store
-118.                           1021                        Remove Outermost Parentheses
-119.                           1039                        Minimum Score Triangulation of Polygon
-120.                           1051                        Height Checker
-121.                           1071                        Greatest Common Divisor of Strings
-122.                           1108                        Defanging an IP Address
-123.                           1137                        N-th Tribonacci Number
-124.                           1146                        Snapshot Array
-125.                           1200                        Minimum Absolute Difference
-126.                           1207                        Unique Number of Occurrences
-127.                           1255                        Maximum Score Words Formed by Letters
-128.                           1266                        Minimum Time Visiting All Points
-129.                           1290                        Convert Binary Number in a Linked List to Integer
-130.                           1295                        Find Numbers with Even Number of Digits
-131.                           1317                        Convert Integer to the Sum of Two No-Zero Integers
-132.                           1323                        Maximum 69 Number
-133.                           1351                        Count Negative Numbers in a Sorted Matrix
-134.                           1365                        How Many Numbers Are Smaller Than the Current Number
-135.                           1380                        Lucky Numbers in a Matrix
-136.                           1394                        Find Lucky Integer in an Array
-137.                           1431                        Kids With the Greatest Number of Candies
-138.                           1475                        Final Prices With a Special Discount in a Shop
-139.                           1486                        XOR Operation in an Array
-140.                           1498                        Number of Subsequences That Satisfy the Given Sum Condition
-141.                           1518                        Water Bottles
-142.                           1526                        Minimum Number of Increments on Subarrays to Form a Target Array
-143.                           1528                        Shuffle String
-144.                           1534                        Count Good Triplets
-145.                           1539                        Kth Missing Positive Number
-146.                           1572                        Matrix Diagonal Sum
-147.                           1611                        Minimum One Bit Operations to Make Integers Zero
-148.                           1614                        Maximum Nesting Depth of the Parentheses
-149.                           1716                        Calculate Money in Leetcode Bank
-150.                           1732                        Find the Highest Altitude
-151.                           1748                        Sum of Unique Elements
-152.                           1768                        Merge Strings Alternately
-153.                           1796                        Second Largest Digit in a String
-154.                           1832                        Check if the Sentence Is Pangram
-155.                           1920                        Build Array from Permutation
-156.                           1925                        Count Square Sum Triples
-157.                           1930                        Unique Length-3 Palindromic Subsequences
-158.                           1935                        Maximum Number of Words You Can Type
-159.                           1952                        Three Divisors
-160.                           1991                        Find the Middle Index in Array
-161.                           2011                        Final Value of Variable After Performing Operations
-162.                           2022                        Convert 1D Array Into 2D Array
-163.                           2079                        Watering Plants
-164.                           2089                        Find Target Indices After Sorting Array
-165.                           2125                        Number of Laser Beams in a Bank
-166.                           2149                        Rearrange Array Elements by Sign
-167.                           2154                        Keep Multiplying Found Values by Two
-168.                           2161                        Partition Array According to Given Pivot
-169.                           2169                        Count Operations to Obtain Zero
-170.                           2215                        Find the Difference of Two Arrays
-171.                           2221                        Find Triangular Sum of an Array
-172.                           2235                        Add Two Integers
-173.                           2283                        Check if Number Has Equal Digit Count and Digit Value
-174.                           2300                        Successful Pairs of Spells and Potions
-175.                           2315                        Count Asterisks
-176.                           2363                        Merge Similar Items
-177.                           2396                        Strictly Palindromic Number
-178.                           2413                        Smallest Even Multiple
-179.                           2418                        Sort the People
-180.                           2469                        Convert the Temperature
-181.                           2520                        Count the Digits That Divide a Number
-182.                           2525                        Categorize Box According to Criteria
-183.                           2529                        Maximum Count of Positive Integer and Negative Integer
-184.                           2544                        Alternating Digit Sum
-185.                           2551                        Put Marbles in Bags
-186.                           2595                        Number of Even and Odd Bits
-187.                           2769                        Find the Maximum Achievable Number
-188.                           2785                        Sort Vowels in a String
-189.                           2798                        Number of Employees Who Met the Target
-190.                           2810                        Faulty Keyboard
-191.                           2872                        Maximum Number of K-Divisible Components
-192.                           2879                        Display the First Three Rows
-193.                           2894                        Divisible and Non-divisible Sums Difference
-194.                           2942                        Find Words Containing Character
-195.                           3005                        Count Elements With Maximum Frequency
-196.                           3024                        Type of Triangle
-197.                           3074                        Apple Redistribution into Boxes
-198.                           3099                        Harshad Number
-199.                           3110                        Score of a String
-200.                           3190                        Find Minimum Operations to Make All Elements Divisible by Three
-201.                           3194                        Minimum Average of Smallest and Largest Elements
-202.                           3195                        Find the Minimum Area to Cover All Ones I
-203.                           3228                        Maximum Number of Operations to Move Ones to the End
-204.                           3271                        Hash Divided String
-205.                           3289                        The Two Sneaky Numbers of Digitville
-206.                           3354                        Make Array Elements Equal to Zero
-207.                           3370                        Smallest Number With All Set Bits
-208.                           3461                        Check If Digits Are Equal in String After Operations I
-209.                           3512                        Minimum Operations to Make Array Sum Divisible by K
-210.                           3541                        Find Most Frequent Vowel and Consonant
-211.                           3658                        GCD of Odd and Even Sums
-212.                           3668                        Restore Finishing Order
-213.                           3701                        Compute Alternating Sum
-214.                           3731                        Find Missing Elements
-215.                           3760                        Maximum Substrings With Distinct Start
+1)                             1                              Two Sum
+2)                             4                              Median of Two Sorted Arrays
+3)                             5                              Longest Palindromic Substring
+4)                             9                              Palindrome Number
+5)                             11                             Container With Most Water
+6)                             12                             Integer to Roman
+7)                             13                             Roman to Integer
+8)                             15                             3Sum
+9)                             20                             Valid Parentheses
+10)                            26                             Remove Duplicates from Sorted Array
+11)                            27                             Remove Element
+12)                            28                             Find the Index of the First Occurrence in a String
+13)                            33                             Search in Rotated Sorted Array
+14)                            34                             Find First and Last Position of Element in Sorted Array
+15)                            35                             Search Insert Position
+16)                            38                             Count and Say
+17)                            48                             Rotate Image
+18)                            52                             N-Queens II
+19)                            54                             Spiral Matrix
+20)                            58                             Length of Last Word
+21)                            59                             Spiral Matrix II
+22)                            66                             Plus One
+23)                            67                             Add Binary
+24)                            69                             Sqrt(x)
+25)                            70                             Climbing Stairs
+26)                            74                             Search a 2D Matrix
+27)                            75                             Sort Colors
+28)                            118                            Pascal's Triangle
+29)                            119                            Pascal's Triangle II
+30)                            125                            Valid Palindrome
+31)                            136                            Single Number
+32)                            151                            Reverse Words in a String
+33)                            153                            Find Minimum in Rotated Sorted Array
+34)                            154                            Find Minimum in Rotated Sorted Array II
+35)                            169                            Majority Element
+36)                            175                            Combine Two Tables
+37)                            189                            Rotate Array
+38)                            190                            Reverse Bits
+39)                            191                            Number of 1 Bits
+40)                            202                            Happy Number
+41)                            205                            Isomorphic Strings
+42)                            206                            Reverse Linked List
+43)                            215                            Kth Largest Element in an Array
+44)                            217                            Contains Duplicate
+45)                            229                            Majority Element II
+46)                            231                            Power of Two
+47)                            238                            Product of Array Except Self
+48)                            242                            Valid Anagram
+49)                            258                            Add Digits
+50)                            263                            Ugly Number
+51)                            268                            Missing Number
+52)                            275                            H-Index II
+53)                            278                            First Bad Version
+54)                            283                            Move Zeroes
+55)                            292                            Nim Game
+56)                            300                            Longest Increasing Subsequence
+57)                            326                            Power of Three
+58)                            338                            Counting Bits
+59)                            342                            Power of Four
+60)                            344                            Reverse String
+61)                            345                            Reverse Vowels of a String
+62)                            349                            Intersection of Two Arrays
+63)                            354                            Russian Doll Envelopes
+64)                            367                            Valid Perfect Square
+65)                            374                            Guess Number Higher or Lower
+66)                            392                            Is Subsequence
+67)                            394                            Decode String
+68)                            405                            Convert a Number to Hexadecimal
+69)                            407                            Trapping Rain Water II
+70)                            412                            Fizz Buzz
+71)                            414                            Third Maximum Number
+72)                            415                            Add Strings
+73)                            434                            Number of Segments in a String
+74)                            436                            Find Right Interval
+75)                            441                            Arranging Coins
+76)                            443                            String Compression
+77)                            468                            Validate IP Address
+78)                            485                            Max Consecutive Ones
+79)                            491                            Non-decreasing Subsequences
+80)                            496                            Next Greater Element I
+81)                            503                            Next Greater Element II
+82)                            504                            Base 7
+83)                            506                            Relative Ranks
+84)                            507                            Perfect Number
+85)                            540                            Single Element in a Sorted Array
+86)                            541                            Reverse String II
+87)                            557                            Reverse Words in a String III
+88)                            561                            Array Partition
+89)                            605                            Can Place Flowers
+90)                            611                            Valid Triangle Number
+91)                            628                            Maximum Product of Three Numbers
+92)                            657                            Robot Return to Origin
+93)                            658                            Find K Closest Elements
+94)                            679                            24 Game
+95)                            682                            Baseball Game
+96)                            696                            Count Binary Substrings
+97)                            717                            1-bit and 2-bit Characters
+98)                            724                            Find Pivot Index
+99)                            728                            Self Dividing Numbers
+100)                           709                            To Lower Case
+101)                           744                            Find Smallest Letter Greater Than Target
+102)                           746                            Min Cost Climbing Stairs
+103)                           747                            Largest Number At Least Twice of Others
+104)                           762                            Prime Number of Set Bits in Binary Representation
+105)                            771                           Jewels and Stones
+106)                            704                           Binary Search
+107)                            796                           Rotate String
+108)                            804                           Unique Morse Code Words
+109)                            806                           Number of Lines To Write String
+110)                            812                           Largest Triangle Area
+111)                            832                           Flipping an Image
+112)                            837                           New 21 Game
+113)                            852                           Peak Index in a Mountain Array
+114)                            867                           Transpose Matrix
+115)                            528                           Random Pick with Weight
+116)                            942                           DI String Match
+117)                            944                           Delete Columns to Make Sorted
+118)                            961                           N-Repeated Element in Size 2N Array
+119)                            966                           Vowel Spellchecker
+120)                            509                           Fibonacci Number
+121)                            976                           Largest Perimeter Triangle
+122)                            977                           Squares of a Sorted Array
+123)                            980                           Unique Paths III
+124)                            981                           Time Based Key-Value Store
+125)                            1009                          Complement of Base 10 Integer
+126)                            1021                            Remove Outermost Parentheses
+127)                            1039                            Minimum Score Triangulation of Polygon
+128)                            1047                            Remove All Adjacent Duplicates In String
+129)                            1051                            Height Checker
+130)                            1071                            Greatest Common Divisor of Strings
+131)                            1108                            Defanging an IP Address
+132)                            1137                            N-th Tribonacci Number
+133)                            1146                            Snapshot Array
+134)                            1935                            Maximum Number of Words You Can Type
+135)                            1200                            Minimum Absolute Difference
+136)                            2079                            Watering Plants
+137)                            1207                            Unique Number of Occurrences
+138)                            1255                            Maximum Score Words Formed by Letters
+139)                            2215                            Find the Difference of Two Arrays
+140)                            1266                            Minimum Time Visiting All Points
+141)                            1281                            Subtract the Product and Sum of Digits of an Integer
+142)                            1290                            Convert Binary Number in a Linked List to Integer
+143)                            1295                            Find Numbers with Even Number of Digits
+144)                            1317                            Convert Integer to the Sum of Two No-Zero Integers
+145)                            1323                            Maximum 69 Number
+146)                            1356                            Sort Integers by The Number of 1 Bits
+147)                            1351                            Count Negative Numbers in a Sorted Matrix
+148)                            1365                            How Many Numbers Are Smaller Than the Current Number
+149)                            1380                            Lucky Numbers in a Matrix
+150)                            1394                            Find Lucky Integer in an Array
+151)                            1431                            Kids With the Greatest Number of Candies
+152)                            1475                            Final Prices With a Special Discount in a Shop
+153)                            1486                            XOR Operation in an Array
+154)                            1498                            Number of Subsequences That Satisfy the Given Sum Condition
+155)                            1526                            Minimum Number of Increments on Subarrays to Form a Target Array
+156)                            1518                            Water Bottles
+157)                            1539                            Kth Missing Positive Number
+158)                            1528                            Shuffle String
+159)                            1534                            Count Good Triplets
+160)                            1572                            Matrix Diagonal Sum
+161)                            1611                            Minimum One Bit Operations to Make Integers Zero
+162)                            1614                            Maximum Nesting Depth of the Parentheses
+163)                            1662                            Check If Two String Arrays are Equivalent
+164)                            1684                            Count the Number of Consistent Strings
+165)                            1672                            Richest Customer Wealth
+166)                            1678                            Goal Parser Interpretation
+167)                            1716                            Calculate Money in Leetcode Bank
+168)                            1732                            Find the Highest Altitude
+169)                            1748                            Sum of Unique Elements
+170)                            1768                            Merge Strings Alternately
+171)                            1773                            Count Items Matching a Rule
+172)                            1796                            Second Largest Digit in a String
+173)                            1844                            Replace All Digits with Characters
+174)                            1832                            Check if the Sentence Is Pangram
+175)                            1859                            Sorting the Sentence
+176)                            1848                            Minimum Distance to the Target Element
+177)                            1925                            Count Square Sum Triples
+178)                            1920                            Build Array from Permutation
+179)                            1929                            Concatenation of Array
+180)                            1930                            Unique Length-3 Palindromic Subsequences
+181)                            1952                            Three Divisors
+182)                            1991                            Find the Middle Index in Array
+183)                            2000                            Reverse Prefix of Word
+184)                            2022                            Convert 1D Array Into 2D Array
+185)                            2011                            Final Value of Variable After Performing Operations
+186)                            2037                            Minimum Number of Moves to Seat Everyone
+187)                            2089                            Find Target Indices After Sorting Array
+188)                            2125                            Number of Laser Beams in a Bank
+189)                            2161                            Partition Array According to Given Pivot
+190)                            2149                            Rearrange Array Elements by Sign
+191)                            2154                            Keep Multiplying Found Values by Two
+192)                            2169                            Count Operations to Obtain Zero
+193)                            2221                            Find Triangular Sum of an Array
+194)                            2283                            Check if Number Has Equal Digit Count and Digit Value
+195)                            2235                            Add Two Integers
+196)                            2300                            Successful Pairs of Spells and Potions
+197)                            2315                            Count Asterisks
+198)                            2363                            Merge Similar Items
+199)                            2396                            Strictly Palindromic Number
+200)                            2413                            Smallest Even Multiple
+201)                            2418                            Sort the People
+202)                            2469                            Convert the Temperature
+203)                            2520                            Count the Digits That Divide a Number
+204)                            2529                            Maximum Count of Positive Integer and Negative Integer
+205)                            2525                            Categorize Box According to Criteria
+206)                            2544                            Alternating Digit Sum
+207)                            2545                            Sort the Students by Their Kth Score
+208)                            2595                            Number of Even and Odd Bits
+209)                            2551                            Put Marbles in Bags
+210)                            2652                            Sum Multiples
+211)                            2769                            Find the Maximum Achievable Number
+212)                            2798                            Number of Employees Who Met the Target
+213)                            2810                            Faulty Keyboard
+214)                            2785                            Sort Vowels in a String
+215)                            2828                            Check if a String Is an Acronym of Words
+216)                            2839                            Check if Strings Can be Made Equal With Operations I
+217)                            2872                            Maximum Number of K-Divisible Components
+218)                            2877                            Create a DataFrame from List
+219)                            2891                            Method Chaining
+220)                            2888                            Reshape Data: Concatenate
+221)                            2879                            Display the First Three Rows
+222)                            2881                            Create a New Column
+223)                            2884                            Modify Columns
+224)                            2885                            Rename Columns
+225)                            2886                            Change Data Type
+226)                            2887                            Fill Missing Data
+227)                            2882                            Drop Duplicate Rows
+228)                            2889                            Reshape Data: Pivot
+229)                            2890                            Reshape Data: Melt
+230)                            2880                            Select Data
+231)                            2883                            Drop Missing Data
+232)                            2878                            Get the Size of a DataFrame
+233)                            2894                            Divisible and Non-divisible Sums Difference
+234)                            2942                            Find Words Containing Character
+235)                            2946                            Matrix Similarity After Cyclic Shifts
+236)                            3005                            Count Elements With Maximum Frequency
+237)                            3024                            Type of Triangle
+238)                            3074                            Apple Redistribution into Boxes
+239)                            3100                            Water Bottles II
+240)                            3099                            Harshad Number
+241)                            3110                            Score of a String
+242)                            3195                            Find the Minimum Area to Cover All Ones I
+243)                            3194                            Minimum Average of Smallest and Largest Elements
+244)                            3190                            Find Minimum Operations to Make All Elements Divisible by Three
+245)                            3228                            Maximum Number of Operations to Move Ones to the End
+246)                            3271                            Hash Divided String
+247)                            3280                            Convert Date to Binary
+248)                            3289                            The Two Sneaky Numbers of Digitville
+249)                            3285                            Find Indices of Stable Mountains
+250)                            3354                            Make Array Elements Equal to Zero
+251)                            3370                            Smallest Number With All Set Bits
+252)                            3527                            Find the Most Common Response
+253)                            3461                            Check If Digits Are Equal in String After Operations I
+254)                            3512                            Minimum Operations to Make Array Sum Divisible by K
+255)                            3541                            Find Most Frequent Vowel and Consonant
+256)                            3658                            GCD of Odd and Even Sums
+257)                            3668                            Restore Finishing Order
+258)                            3701                            Compute Alternating Sum
+259)                            3760                            Maximum Substrings With Distinct Start
+260)                            3731                            Find Missing Elements
+261)                            3740                            Minimum Distance Between Three Equal Elements I
+262)                            3794                            Reverse String Prefix
+263)                            3838                            Weighted Word Mapping
+264)                            3856                            Trim Trailing Vowels
+265)                            3870                            Count Commas in Range
