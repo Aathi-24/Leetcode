@@ -5,14 +5,12 @@ class Solution {
         int min = Integer.MAX_VALUE;
         for(int r = 0; r < nums.length; r++){
             sum += nums[r];
-            while(sum > target){
+            while(sum >= target){
                 sum -= nums[l];
                 min = Math.min(min, r - l + 1);
                 l++;
             }
-            if(sum == target) min = Math.min(min, r - l + 1);
         }
-        if(l == 0 && sum < target) return 0;
-        return min;
+        return (min == Integer.MAX_VALUE) ? 0 : min;
     }
 }
