@@ -15,12 +15,14 @@ class Solution {
             res += list.get(n1);
             n /= 10;
         }
-        int[] f2 = new int[10];
         while(res > 0){
             int n1 = res % 10;
-            f2[n1]++;
+            f1[n1]--;
             res /= 10;
         }
-        return Arrays.equals(f1, f2);
+        for(int i : f1){
+            if(i != 0) return false;
+        }
+        return true;
     }
 }
