@@ -4,16 +4,12 @@ class Solution {
         List<Integer> l2 = new ArrayList<>();
         l1.add(nums[0]);
         l2.add(nums[1]);
-        int n1 = 0;
-        int n2 = 0;
         for(int i = 2; i < nums.length; i++){
-            if(l1.get(n1) > l2.get(n2)){
+            if(l1.get(l1.size() - 1) > l2.get(l2.size() - 1)){
                 l1.add(nums[i]);
-                n1++;
             }
             else{
                 l2.add(nums[i]);
-                n2++;
             }
         }
         int ind = 0;
