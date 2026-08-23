@@ -1,22 +1,22 @@
 class Solution {
     public String reverseByType(String s) {
         String res = "";
-        int sym = s.length() - 1;
-        int let = s.length() - 1;
-        for(int i = 0; i < s.length(); i++){
-            if(Character.isLetter(s.charAt(i))){
-                while(let >= 0 && !Character.isLetter(s.charAt(let))){
-                    let--;
-                }
-                res += s.charAt(let);
-                let--;
+        String let = "";
+        String sym = "";
+        for(char c : s.toCharArray()){
+            if(Character.isLetter(c)) let += c;
+            else sym += c;
+        }
+        int a = let.length() - 1;
+        int b = sym.length() - 1;
+        for(char c : s.toCharArray()){
+            if(Character.isLetter(c)){
+                res += let.charAt(a);
+                a--;
             }
             else{
-                while(sym >= 0 && Character.isLetter(s.charAt(sym))){
-                    sym--;
-                }
-                res += s.charAt(sym);
-                sym--;
+                res += sym.charAt(b);
+                b--;
             }
         }
         return res;
