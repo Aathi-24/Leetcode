@@ -1,24 +1,24 @@
 class Solution {
     public String reverseByType(String s) {
-        String res = "";
-        String let = "";
-        String sym = "";
+        StringBuilder res = new StringBuilder();
+        StringBuilder let = new StringBuilder();
+        StringBuilder sym = new StringBuilder();
         for(char c : s.toCharArray()){
-            if(Character.isLetter(c)) let += c;
-            else sym += c;
+            if(c >= 'a' && c <= 'z') let.append(c);
+            else sym.append(c);
         }
-        int a = let.length() - 1;
-        int b = sym.length() - 1;
+        let.reverse();
+        sym.reverse();
+        int a = 0;
+        int b = 0;
         for(char c : s.toCharArray()){
-            if(Character.isLetter(c)){
-                res += let.charAt(a);
-                a--;
+            if(c >= 'a' && c <= 'z'){
+                res.append(let.charAt(a++));
             }
             else{
-                res += sym.charAt(b);
-                b--;
+                res.append(sym.charAt(b++));
             }
         }
-        return res;
+        return res.toString();
     }
 }
