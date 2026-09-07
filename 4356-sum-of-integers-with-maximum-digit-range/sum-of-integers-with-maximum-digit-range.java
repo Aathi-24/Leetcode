@@ -1,7 +1,6 @@
 class Solution {
     public int maxDigitRange(int[] nums) {
         int res = 0;
-        Map<Integer,Integer> map = new HashMap<>();
         int m = Integer.MIN_VALUE;
         for(int num : nums){
             int n = num;
@@ -14,11 +13,14 @@ class Solution {
                 n /= 10;
             }
             int range = max - min;
-            map.put(num,range);
-            if(range > m) m = range;      
-        }
-        for(int i : nums){
-            if(map.get(i) == m) res += i;
+            if(range > m){
+                m = range;
+                res = 0;
+                res += num;
+            }
+            else if(range == m){
+                res += num;
+            }   
         }
         return res;
     }
