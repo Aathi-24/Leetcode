@@ -6,7 +6,7 @@ class Solution {
         int[] res = new int[m + n];
         for(int i = n - 1; i >= 0; i--){
             for(int j = m - 1; j >= 0; j--){
-                int digit = (int)(Character.getNumericValue(num1.charAt(i)) * Character.getNumericValue(num2.charAt(j)));
+                int digit = (int)(num1.charAt(i) - '0') * (num2.charAt(j) - '0');
                 int p1 = i + j;
                 int p2 = i + j + 1;
                 int sum = digit + res[p2];
