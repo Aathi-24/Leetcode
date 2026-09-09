@@ -3,7 +3,7 @@ class Solution {
         long count = 0;
         long k = 1000;
         while(k <= n){
-            count += n - k + 1; 
+            count += n - k + 1;
             k *= 1000;
         }
         return count;
