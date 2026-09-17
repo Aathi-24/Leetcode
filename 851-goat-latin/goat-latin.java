@@ -4,7 +4,8 @@ class Solution {
         String a = "maa";
         StringBuilder res = new StringBuilder();
         for(int i = 0; i < words.length; i++){
-            if("aeiouAEIOU".contains("" + words[i].charAt(0))){
+            char b = words[i].charAt(0);
+            if(b == 'a' || b == 'e' || b == 'i' || b == 'o' || b == 'u' || b == 'A' || b == 'E' || b == 'I' || b == 'O' || b == 'U'){
                 words[i] += a;
             }
             else{
