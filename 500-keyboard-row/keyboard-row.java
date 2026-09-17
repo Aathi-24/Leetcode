@@ -5,17 +5,16 @@ class Solution {
         String r3 = "zxcvbnm";
         List<String> list = new ArrayList<>();
         for(String s : words){
-            char c = Character.toLowerCase(s.charAt(0));
+            String temp = s.toLowerCase();
             String row = "";
-            if(r1.contains("" + c)) row = r1;
-            else if(r2.contains("" + c)) row = r2;
+            if(r1.indexOf(temp.charAt(0)) != -1) row = r1;
+            else if(r2.indexOf(temp.charAt(0)) != -1) row = r2;
             else row = r3;
-            int count = 0;
-            for(char ch : s.toCharArray()){
-                ch = Character.toLowerCase(ch);
-                if(row.contains("" + ch)) count++;
+            boolean can = true;
+            for(char c : temp.toCharArray()){
+                if(row.indexOf(c) == -1) can = false;
             }
-            if(count == s.length()){
+            if(can){
                 list.add(s);
             }
         }
