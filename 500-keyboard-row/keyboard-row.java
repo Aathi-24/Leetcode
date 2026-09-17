@@ -3,7 +3,7 @@ class Solution {
         String r1 = "qwertyuiop";
         String r2 = "asdfghjkl";
         String r3 = "zxcvbnm";
-        String res = "";
+        List<String> list = new ArrayList<>();
         for(String s : words){
             char c = Character.toLowerCase(s.charAt(0));
             String row = "";
@@ -16,11 +16,9 @@ class Solution {
                 if(row.contains("" + ch)) count++;
             }
             if(count == s.length()){
-                res += s;
-                res += " ";
+                list.add(s);
             }
         }
-        String[] result = res.trim().split("\\s+");
-        return (res.length() > 0) ? result : new String[0];
+        return list.toArray(new String[0]);
     }
 }
