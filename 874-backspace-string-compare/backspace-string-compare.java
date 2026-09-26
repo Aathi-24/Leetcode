@@ -14,15 +14,7 @@ class Solution {
             }
             else s2.push(c);
         }
-        StringBuilder sb1 = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder();
-        while(!s1.isEmpty()){
-            sb1.append(s1.pop());
-        }
-        while(!s2.isEmpty()){
-            sb2.append(s2.pop());
-        }
-        if(sb1.reverse().toString().equals(sb2.reverse().toString())) return true;
+        if(s1.equals(s2)) return true;
         return false;
     }
 }
